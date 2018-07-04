@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+
+.left,.lControls-out,.lControls-hide
+	{
+	width: 5%;
+	height: 70%;
+	position: absolute;
+	left: 0%;
+	top: 15%;
+	
+	
+}
+.left-icon
+	{
+	width: 60px;
+	height: 110px;
+	margin-top: 85px;
+	background-image: url(../Image/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -890px;
+	}
+.right-icon
+	{
+	width: 60px;
+	height: 110px;
+	margin-top: 85px;
+	background-image: url(../Image/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -1010px;
+	}
+.right,.rControls-out,.rControls-hide
+	{
+	width: 5%;
+	height: 70%;
+	position: absolute;
+	right: 0%;
+	top: 15%;
+	
+}
+	.bg-Content
+	{
+		position: absolute;
+		left: 0px;
+		width: 500%;
+		height: 100%;
+		
+	}
+	.bg0,.bg1,.bg2,.bg3,.bg4
+	{
+		float: left;
+		width: 20%;
+		height: 100%;
+		background-size: 100% 100%;
+		
+	}
+	.bg0
+	{
+		background-image: url(../Image/01.png);
+		
+	}
+	.bg1
+	{
+		background-image: url(../Image/03.jpg);
+		
+	}
+	.bg2
+	{
+		background-image: url(../Image/02.png);
+		
+	}
+	.bg3
+	{
+		background-image: url(../Image/03.png);
+		
+	}
+	.bg4
+	{
+		background-image: url(../Image/04.png);
+		
+	}
+	.disnum-out,.disnum-hide
+	{
+		
+		color: aliceblue;
+		position: absolute;
+		bottom: 20px;
+		left: 25%;
+		z-index: 100;
+		margin: 0 auto;
+		width: 50%;
+		height: 20px;
+		text-align: center;
+		
+	}
+	.disnum-out
+	{
+		opacity: 1;
+		animation: outAM 1s;
+
+	}
+	.disnum-hide
+	{
+		opacity: 0;
+		animation: hideAM 1s;
+
+	}
+	.nodis
+	{
+		cursor: pointer;
+		margin: 3px 14px;
+		display: inline-block;
+		width: 10px;
+		height: 14px;
+		background-position: -14px 0px;
+		background-image: url(../Image/icon-circle.png);
+	}
+	.spandis
+	{
+		
+		margin: 3px 14px;
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		background-position: 0px 0px;
+		background-image: url(../Image/icon-circle.png);
+	}
+	
+	.lControls-out
+	{
+		opacity: 1;
+		animation: outAM 1s;
+		
+	}
+	.lControls-hide
+	{
+		opacity: 0;
+		animation: hideAM 1s;
+	}
+	.rControls-out
+	{
+		opacity: 1;
+		animation: outAM 1s;
+		
+	}
+	.rControls-hide
+	{
+		opacity: 0;
+		animation: hideAM 1s;
+	}
+	@keyframes outAM
+	{
+		from{opacity: 0;}
+		to{opacity: 1;}
+	}
+	@keyframes hideAM
+	{
+		from{opacity: 1;}
+		to{opacity: 0;}
+	}

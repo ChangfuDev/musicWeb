@@ -1,0 +1,142 @@
+@charset "utf-8";
+	#Pause,#Previous,#Next
+	{
+		margin-right: 10px;
+	}
+.Pause,.Play
+{
+	float: left;
+	width: 60px;
+	height: 60px;
+	background-image: url(../Image/btn.png);
+}
+.Play
+{
+	background-position: -0px -60px;
+}
+.PreviousLeave,.PreviousEnter
+	{
+		float: left;
+		width: 36px;
+		height: 36px;
+		background-image: url(/musicweb/Image/btn.png);
+		margin-top: 12px;
+		background-position: 0px -143px;
+	}
+.PreviousEnter
+	{
+		background-position: -36px -143px;
+	}
+.PauseEnter
+	{
+		
+	    background-position: -60px 0;
+	}
+.PauseLeave,.PauseEnter,.PauseClickLeave,.PauseEnter,.PauseClick
+	{
+		float: left;
+		width: 60px;
+		height: 60px;
+		background-image: url(/musicweb/Image/btn.png);
+	}
+.PauseClick
+	{
+		
+		background-position: -60px -60px;
+	}
+.PauseClickLeave
+	{
+		
+		background-position: 0px -60px;
+		
+	}
+	
+.NextLeave,.NextEnter
+	{
+		
+		float: left;
+		width: 36px;
+		height: 36px;
+		background-image: url(/musicweb/Image/btn.png);
+		margin-top: 12px;
+		background-position: -144px -143px;
+		
+	}
+.NextEnter
+	{
+		background-position: -180px -143px;
+	}
+
+
+	#controls-left
+	{
+		padding-top: 10px;
+		width: 17%;
+		height: 100%;
+	}
+    @keyframes controls-left-AM
+{
+	from{}
+	to{}
+}
+    #controls-center
+	{
+		
+		width: 60%;
+		height: 100%;
+	}
+    #progress-bar{
+	    position: relative;
+		width: 80%;
+		height: 6px;
+		background-color:#424242;
+		margin-left: 0;
+		margin-top: 50px;
+		margin-right: 10px;
+		float: right;
+	
+		
+	}
+	#header{
+		position: relative;
+		top:-2px;
+		margin-left: -5px;
+		width: 10px;
+		height: 10px;
+		background-color: #2177c7;
+		border-radius: 15px;
+	}
+	#controls-left,#controls-center,#controls-right
+	{
+		float: left;
+		
+	}
+#controls-left-center
+	{
+		
+		width: 80%;
+		margin: 0 auto;
+		
+	}
+#singerpic
+	{
+		float: left;
+		width: 80px;
+		height: 100%;
+		background-size: 100% 100%;
+		background-color: #222222; 
+		
+	}
+#song
+{
+	position: absolute;
+	bottom: 15px;
+	color:aliceblue;
+}
+#songtime
+{
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	color:aliceblue;
+}

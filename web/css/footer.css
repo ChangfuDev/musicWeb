@@ -1,0 +1,22 @@
+@charset "utf-8";
+.ft-Content
+{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+.ft-Content p
+{
+	margin: 100px;
+	position: relative;
+	top:100px;
+	text-align: center;
+	
+}
+.ft-Content p a
+{
+	
+	color: #919191;
+	
+}

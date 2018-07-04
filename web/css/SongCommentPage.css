@@ -1,0 +1,173 @@
+.mainContent
+{
+   width: 1000px;
+   margin: 0 auto;
+   font-size: 14px;
+}
+.SongDetails
+{
+   margin-bottom: 20px;
+   position: relative;
+   overflow: hidden;
+}
+.SongDetails-bg
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Image/3010.jpg);
+    background-size: 100% 100%;
+    -webkit-filter: blur(50px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+
+.Song-details
+{
+    display: flex;
+    background-color: rgba(153, 153, 153, 0.5)
+   
+   
+    
+}
+.Song-details ul
+{
+    margin:auto 0;
+    list-style: none;
+}
+
+.Song-details ul li
+{
+    margin: 30px 0px;
+}
+.Song-details span
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../Image/icon_sprite@2x.png);
+    background-size: 1000% 1700%;
+    vertical-align: -7px;
+    
+}
+.Song-details button
+{
+    text-align: center;
+    margin-right: 20px;
+
+}
+.paly
+{
+    background-position:-60px -220px;
+}
+.add
+{
+    background-position:-60px -0px;
+}
+.comment
+{
+    background-position:-140px -120px;
+}
+.lrc
+{
+    background-position:-20px -80px;
+}
+
+
+
+
+.lrc-show
+{
+    display: none;
+    margin-bottom: 20px;
+}
+.lyric__cont_box
+{
+    margin-left: 45px;
+}
+
+
+
+
+
+
+.Comments
+{
+
+}
+.submntComment
+{
+    text-align: right;
+}
+.Conment-item 
+{
+    display: flex;
+   
+    border-bottom: #4f4f4f solid 1px;
+}
+.Comment-user-pic
+{
+   
+}
+.Conment-item img
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+   
+}
+.Comment-details
+{
+   
+    flex: 1;
+}
+.Comment-details p
+{
+   margin-bottom: 0px;
+   padding: 5px;
+
+}
+.replide-Com
+{
+    width: 95%;
+    background-color: #dff0d8;
+    margin: 0 auto;
+    border: #e0e0e0 solid 1px;
+}
+.Comment-ft
+{
+    margin: 10px 0;
+    text-align: right;
+}
+.Comment-ft a
+{
+    text-decoration: none;
+}
+.Conmmet-time
+{
+    float: left;
+}
+.Like ,.reply
+{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../Image/comment@2x.png);
+    background-size: 200% 1120%;
+    vertical-align: -10px;
+   
+}
+.Like
+{
+    
+    background-position: -20px -25px;
+}
+.reply
+{
+    background-position: -20px -50px;
+}
+
+
+
+

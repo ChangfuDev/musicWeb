@@ -1,0 +1,130 @@
+.mainContent
+{
+   width: 1000px;
+  margin: 0 auto;
+   font-size: 14px;
+}
+.SingerDetails
+{
+   margin-bottom: 100px;
+    margin-top: 50px;
+   position: relative;
+   overflow: hidden;
+}
+.SingerDetails-bg
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Image/3010.jpg);
+    background-size: 100% 100%;
+    -webkit-filter: blur(50px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.Singer-pic
+{
+    height: 400px;
+    display: flex;
+   
+}
+.Singer-pic img
+{
+    margin: auto;
+}
+.Singer-details
+{
+    display: flex;
+    background-color: rgba(153, 153, 153, 0.5)
+   
+   
+    
+}
+.Singer-details ul
+{
+    margin:auto 0;
+    list-style: none;
+}
+
+.Singer-details ul li
+{
+    margin: 30px 0px;
+}
+.Singer-details span
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../Image/icon_sprite@2x.png);
+    background-size: 1000% 1700%;
+    vertical-align: -7px;
+    
+}
+
+.paly
+{
+    background-position:-60px -220px;
+}
+.add
+{
+    background-position:-60px -0px;
+}
+.comment
+{
+    background-position:-140px -120px;
+}
+.intro
+{
+    background-position:-20px -80px;
+}
+.Singer-details button
+{
+    text-align: center;
+    margin-right: 20px;
+
+}
+.ML-intro
+{
+    display: none;
+}
+
+
+
+.songlist
+{
+    margin-bottom: 100px;
+
+}
+.tablehead
+{
+    color: #999999;
+}
+.select a
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../Image/icon_list_menu@2x.png);
+    background-size: 500% 700%;
+}
+.select-add
+{
+    background-position: 0 -80px;
+}
+.select-down
+{
+    background-position: 0 -120px;
+}
+.songlist th
+{
+    position: relative;
+}
+.select 
+{
+   display: none;
+   position: absolute;
+   top: 7px;
+   right: 7px;
+   
+}

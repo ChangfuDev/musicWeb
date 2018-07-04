@@ -1,0 +1,38 @@
+.align
+{
+    margin: 0 auto;
+    width: 1000px;
+}
+.tabs
+{
+    width: 1000px;
+    margin: 20px auto;
+}
+.tabs span,.selected-tab
+{
+    cursor: pointer;
+    margin: 0 40px;
+}
+.selected-tab
+{
+   color: #007acc;
+}
+
+
+
+/*songList-show*/
+#songList-show img
+{
+    width: 200px;
+    height: 200px;
+}
+#songList-show a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+#songList-show p
+{
+    width: 200px;
+}

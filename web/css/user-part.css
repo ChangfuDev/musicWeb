@@ -1,0 +1,62 @@
+
+:root{
+    --user-part:70px;
+}
+	.user-part
+    {
+        float:right;
+		position: absolute;
+		top: 0;
+		right: 0;
+
+
+    }
+    .user-pic
+    {
+        background: linear-gradient(to bottom,#846170,#70929c);
+        width: var(--user-part);
+        height:var(--user-part);
+    }
+     .user-pic img
+     {
+        width: var(--user-part);
+        height: var(--user-part);
+     }
+     .Login a
+     {
+        color:black;
+        font-size: 18px;
+        text-decoration: none;
+
+     }
+
+     .Login
+     {
+        width: var(--user-part);
+        height: var(--user-part);
+        line-height: var(--user-part);
+        background:#d3d3d3;
+        text-align: center;
+     }
+     .user-details
+     {
+         background: #d3d3d3;
+         position: absolute;
+         width: var(--user-part);
+         left:0;
+         display: none;
+
+     }
+     .user-details ul
+     {
+         width: var(--user-part);
+        list-style: none;
+        padding: 0px;
+     }
+     .user-details ul li
+     {
+          cursor: pointer;
+          display: block;
+          line-height: 25px;
+          text-align: center;
+     }

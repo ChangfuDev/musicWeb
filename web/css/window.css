@@ -1,0 +1,26 @@
+@charset "utf-8";
+	.window-content
+	{
+		position: relative;
+		top:50%;
+		width: 400px;
+		height: 400px;
+		background-color: aliceblue;
+		margin: 0 auto;
+		margin-top: -200px;
+	}
+.window-content ul
+{
+	list-style: none;
+	
+}
+.window-content ul li
+{
+	margin-top: 50px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 18px;
+	
+	
+}
+

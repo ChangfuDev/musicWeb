@@ -1,0 +1,35 @@
+body
+{
+    
+}
+.main
+{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+
+} 
+
+.login_form{
+    width: 400px;
+    height: 400px;
+    
+}
+.Transparent,.modal-body input
+{
+    color: papayawhip;
+    background: rgba(30, 30, 30, 0.7);
+}
+
+
+
+.signsuccess
+{
+    color: papayawhip;
+    text-align: center;
+    margin-top: 200px;
+}
+

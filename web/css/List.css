@@ -1,0 +1,26 @@
+.width-1k
+{
+  width: 1000px;
+}
+.imgsize
+{
+    width: 75px;
+    height: 75px;
+}
+.hover:hover
+{
+background: #e0e0e0;
+}
+.mh-auto
+{
+    margin: auto 50px;
+}
+
+.content-mt div
+{
+    margin-top: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link
+{
+    background-color:#2c323b;
+}

@@ -1,0 +1,143 @@
+
+.align
+{
+    margin: 0 auto;
+    width: 1000px;
+   
+}
+.user-detail
+{
+
+    height: 400px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+}
+.user-pic-show
+{
+    
+    height: 400px;
+    background:#dddddd;
+    display: flex;
+    border-radius: 5px;
+}
+.user-pic-show img
+{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 5px;
+}
+.user-details-show
+{
+    height: 400px;
+    background: #2c323b;
+    display: flex;
+    border-radius: 5px;
+}
+.uds-show
+{
+    width: 100%;
+    margin: auto;
+    color: papayawhip;
+}
+.uds-show h3
+{
+    margin-bottom: 30px;
+    position: relative;
+}
+.uds-show h3 button,.listtitle button
+{
+   display: block;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+.main
+{
+    height: 100%;
+}
+
+.CreateList-show div,.UserConllection-show div
+{
+    margin: 30px 0px;
+    height: 100%;
+    background-color: lightcyan;
+    text-align: center;
+}
+.CreateList-show div img,.UserConllection-show div img
+{
+    width: 200px;
+    height: 200px;
+}
+.listtitle
+{
+    
+    position: relative;
+    border-bottom: #1e1e1e solid 5px;
+}
+.CreateList
+{
+    margin-bottom: 100px;
+}
+
+
+
+
+/*dialog 用户歌单显示 Sonlist Dialog component(歌单弹窗组件)*/
+.slist-show
+{
+    display: flex;
+}
+.slist-img
+{
+    margin: auto;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom,#846170,#70929c);
+}
+
+/*新建歌单样式*/
+.Create-songlist
+{
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(to bottom,#846170,#70929c);
+
+}
+/*歌单item*/
+.songlist-item,.Create-songlist-item
+{
+    display: flex;
+    margin: 20px 0;
+    position: relative;
+}
+.songlist-item img
+{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+.songlist-item h6,.Create-songlist-item h6
+{
+    cursor: default;
+    padding-left: 50px;
+    margin:auto 0;
+}
+.deleteSL
+{
+    position: absolute;
+    display:none;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    right: 10px;
+    background-image: url(../Image/icon_list_menu@2x.png);
+    background-size: 500% 700%;
+    background-position: 0 -160px;
+
+}

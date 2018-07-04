@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+	
+	.li-in
+	{
+		background-color:#95b3d7;
+		
+		
+	}
+	.day-commend li,.charts li
+	{
+		
+		line-height: 30px;
+		color: #222222;
+		
+	}
+	ul
+	{
+	    
+		font-size: 15px;
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		
+		
+	}
+	.music-tb-content
+	{
+		margin: 0 auto;
+		width: 90%;
+		height: 100%;
+	
+		
+	}
+	.day-commend
+	{
+		float: left;
+		width: 60%;
+		height: 100%;
+		
+	}
+	.charts
+	{
+		float: right;
+		width: 30%;
+		height: 100%;
+		
+	}
+	.title
+	{
+		
+		font-size: 20px;
+		line-height:50px;
+		border-bottom: 3px solid #484848;
+		background-color: aliceblue;
+	}
+.day-commend ul a,.charts ul a
+	{
+		color: black;
+		text-decoration: none;
+		
+	}
+    

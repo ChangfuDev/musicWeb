@@ -1,0 +1,201 @@
+
+	#Controls-right
+	{
+		position: relative;
+		width: 23%;
+		height: 50%;
+		padding-top: 40px;
+	}
+   #volume, #mode, #download,#list
+	{
+		position: relative;
+		float: left;
+		margin-right: 20px;
+		
+	}
+	#volume, #mode, #download
+	{
+	    
+		margin-top: 2px;
+	}
+	.volumeLeave,.volumeEnter
+	{
+		float: left;
+		width: 16px;
+		height: 16px;
+		background-image: url(/musicweb/Image/btn.png);
+		background-position: 0 -195px;
+		
+	}
+	.volumeEnter
+	{
+		background-position: -16px -195px;
+	}
+	.listLeave,.listEnter
+	{
+		text-align: center;
+		color: aliceblue;
+		
+		width: 60px;
+		height: 23px;
+		background-image: url(/musicweb/Image/btn.png);
+		background-position: 0 -120px;
+	}
+	.listEnter
+	{
+		background-position: -60px -120px;
+	}
+	.modeLeave,.modeEnter
+	{
+		
+		width: 16px;
+		height: 16px;
+		background-image: url(/musicweb/Image/btn.png);
+		background-position: 0 -179px;
+	}
+	.modeEnter
+	{
+		background-position: -16px -179px;
+	}
+	.downloadLeave,.downloadEnter
+	{
+		
+		width: 16px;
+		height: 16px;
+		background-image: url(/musicweb/Image/btn.png);
+		background-position: -240px -30px;
+	}
+	.downloadEnter
+	{
+		background-position: -255px -30px;
+	}
+	
+	#volume-Controls
+	{
+		z-index: 100;
+		position: absolute;
+		width: 29px;
+		height: 114px;
+		top:-120px;
+		left:-6.5px;
+		
+	}
+    #VC-bg
+	{
+		
+		width: 29px;
+		height: 114px;
+		top:-115px;
+		left:-5px;
+		background-image: url(/musicweb/Image/volume-panel.png);
+	}
+	#pg-Controls
+	{
+		position: absolute;
+		width: 10px;
+		height: 90px;
+		top: 11px;
+		left:12.5px;
+		
+		
+	}
+	#Vo-header
+	{
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		bottom: 0px;
+		left: -2.5px;
+		background-color: antiquewhite;
+		border-radius: 5px;
+		
+	}
+	#mov-module
+	{
+		position: absolute;
+		width: 3px;
+		height: 90px;
+		left: 0.5px;
+		overflow: hidden;
+		
+	
+	}
+	
+	#mov
+	{
+		position: absolute;
+		top:90px;
+		width: 3px;
+		height: 90px;
+		left: 0.5px;
+		background-color:aqua;
+		
+		
+	}
+	.volume-Controls-hide
+	{
+		display: none;
+	}
+	.volume-Controls-paly
+	{
+	 
+		display: block;
+	}
+	.music-list-bg
+	{
+		display: none;
+		position: absolute;
+		width: 400px;
+		height: 400px;
+		bottom: 30px;
+		right: -100px;
+		background-color:rgba(34,34,34,0.80);
+		overflow-y: auto;
+
+	}
+.mode-bg
+	{
+		display: none;
+		position: absolute;
+		width: 120px;
+		height: 100px;
+		bottom: 30px;
+		right: -42px;
+		background-color:rgba(34,34,34,0.30);
+
+	}
+	.mode-bg ul
+	{
+		padding: 0px;
+		margin: 10px auto;
+		list-style: none;
+	}
+    .mode-bg ul li
+	{
+		cursor: pointer;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	
+.music-list-bg ul
+{
+	list-style:decimal;
+	text-align: left;
+	margin-top: 10px;
+	
+}
+.music-list-bg ul li
+{
+	cursor: pointer;
+	position: relative;
+	margin-top: 10px;
+}
+.music-list-bg ul li div
+{
+	height: 100%;
+	width: 30%;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+

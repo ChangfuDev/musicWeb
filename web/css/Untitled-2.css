@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		width: 1000px;
+		height: auto;
+		margin: 0 auto;
+		background-color:#222222;
+	
+	}
+	.module-player{
+	
+		width: 1000px;
+		height: 80px;
+	    background-color: rgba(255, 255, 255,0.3);
+		
+		
+	}
+	#progress-bar{
+		position: relative;
+		top: 10px;
+		width: 1000px;
+		height: 6px;
+		background-color:#424242;
+		border-radius: 20px;
+		
+	}
+	#header{
+		position: relative;
+		top:-2px;
+		margin-left: -5px;
+		width: 10px;
+		height: 10px;
+		background-color: #159783;
+		border-radius: 15px;
+	}
+	#top
+	{
+		width: 1000px;
+		margin: 0 auto;
+		display: none;
+		
+		
+	}
+	
+	#top1
+	{
+		width: 600px;
+		height: 180px;
+		float: left;
+		background: #2c5a9e;
+		
+	}
+	#top2
+	{
+		width: 400px;
+		height: 180px;
+		
+		background-color: antiquewhite;
+			
+	}
+	#hideout
+	{
+		position: absolute;
+		width: 110px;
+		left: -100px;
+		
+		
+	}
+	#out
+	{
+		width: 10px;
+		height: 20px;
+		float: left;
+		background-color: aliceblue;
+	}
+	#hide
+	{
+	
+		width: 100px;
+		height: 100px;
+		float: left;
+		background-color: rgba(0,0,0,0.54);
+		
+	}

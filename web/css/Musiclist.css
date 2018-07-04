@@ -1,0 +1,274 @@
+/*.text-right
+ {
+     text-align: right;
+ }*/
+.mainContent
+{
+   width: 1000px;
+  margin: 0 auto;
+   font-size: 14px;
+}
+.MusicListDetails
+{
+   margin-bottom: 100px;
+   position: relative;
+   overflow: hidden;
+    margin-top: 50px;
+}
+.MusicListDetails-bg
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Image/3010.jpg);
+    background-size: 100% 100%;
+    -webkit-filter: blur(50px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.List-pic
+{
+    height: 400px;
+    display: flex;
+   
+}
+.List-pic img
+{
+    margin: auto;
+}
+.List-details
+{
+    display: flex;
+    background-color: rgba(153, 153, 153, 0.5)
+   
+   
+    
+}
+.List-details ul
+{
+    margin:auto 0;
+    list-style: none;
+}
+.CreateUser-pic
+{
+    width: 50px;
+    height: 50px;
+}
+.List-details ul li
+{
+    margin: 30px 0px;
+}
+.List-details span
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../Image/icon_sprite@2x.png);
+    background-size: 1000% 1700%;
+    vertical-align: -7px;
+    
+}
+.paly
+{
+    background-position:-60px -220px;
+}
+.add
+{
+    background-position:-60px -0px;
+}
+.comment
+{
+    background-position:-140px -120px;
+}
+.intro
+{
+    background-position:-20px -80px;
+}
+.edit
+{
+    background-position: -140px 0px;
+}
+.Collected
+{
+    background-position: 0px -80px;
+}
+.List-details button
+{
+    text-align: center;
+    margin-right: 20px;
+
+}
+.ML-intro
+{
+    display: none;
+}
+.slist-show
+{
+    display: flex;
+}
+.slist-img
+{
+    margin: auto;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom,#846170,#70929c);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.songlist
+{
+    margin-bottom: 100px;
+
+}
+.tablehead
+{
+    color: #999999;
+}
+.select a
+{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../Image/icon_list_menu@2x.png);
+    background-size: 500% 700%;
+}
+.select-add
+{
+    background-position: 0 -80px;
+}
+.select-down
+{
+    background-position: 0 -120px;
+}
+.select-delete
+{
+    background-position: 0 -160px;
+}
+.songlist th
+{
+    position: relative;
+}
+.select 
+{
+   display: none;
+   position: absolute;
+   top: 7px;
+   right: 7px;
+   
+}
+
+
+
+.Comments
+{
+
+}
+.submntComment
+{
+    text-align: right;
+}
+.Conment-item 
+{
+    display: flex;
+   
+    border-bottom: #4f4f4f solid 1px;
+}
+.reply-txt
+{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.unShow
+{
+    display: none;
+
+}
+.txt-bg
+{
+    background-color: #e0e0e0;
+}
+.Comment-user-pic
+{
+   
+}
+.Conment-item img
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+   
+}
+.Comment-details
+{
+   
+    flex: 1;
+    position: relative;
+    padding-bottom: 50px;
+
+}
+.Comment-details p
+{
+   margin-bottom: 0px;
+   padding: 5px;
+
+}
+.replide-Com
+{
+    width: 95%;
+    background-color: #dff0d8;
+    margin: 0 auto;
+    border: #e0e0e0 solid 1px;
+}
+.Comment-ft
+{
+    margin: 10px 0;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.Comment-ft a
+{
+    text-decoration: none;
+}
+.Conmmet-time
+{
+    float: left;
+}
+.Like ,.reply
+{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../Image/comment@2x.png);
+    background-size: 200% 1120%;
+    vertical-align: -10px;
+   
+}
+.Like
+{
+    
+    background-position: -20px -25px;
+}
+.reply
+{
+    background-position: -20px -50px;
+}
+
+
+
+
